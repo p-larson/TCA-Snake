@@ -25,4 +25,4 @@ Built using The Composable Architecture for the business logic.
 
 ### License
 
-Open Source [MIT License](https://github.com/p-larson/SwiftUICardStack/blob/main/LICENSE), aka: use how you please 😎 
+Open Source [MIT License](https://github.com/p-larson/TCA-Snake/blob/main/LICENSE), aka: use how you please 😎 
