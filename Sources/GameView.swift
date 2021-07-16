@@ -11,7 +11,7 @@ struct GameView: View {
             	// Trigger rerendering when the GameState is changed
                 .id(viewStore.state)
             	// Prepare the game
-            	// .onAppear { viewStore.send(.reset) }
+                .onAppear { viewStore.send(.reset) }
                 .gesture(ControlGesture())
             	// Pass the ViewStore so our subviews can interact with it.
                 .alert(

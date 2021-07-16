@@ -16,8 +16,8 @@ struct TCASnakeApp: App {
                 store: Store(
                     initialState: GameState(
                         initialPosition: Coordinate(row: 0, column: 0),
-                        rows: 30,
-                        columns: 60
+                        rows: 25,
+                        columns: 40
                     ),
                     reducer: gameReducer.debug(),
                     environment: GameEnvironment(
