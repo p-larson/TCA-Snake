@@ -35,13 +35,13 @@ fileprivate struct BoardView: View {
 	
 	var body: some View {
 		Canvas { context, size in
+            // Draw the snake & the player!
 			var player = Path()
 			
 			viewStore
 				.player
 				.map { coordinate in
-					Path(
-						size.gridItemFrame(
+					Path(size.gridItemFrame(
 							row: coordinate.row,
 							column: coordinate.column,
 							rows: viewStore.rows,
@@ -54,18 +54,19 @@ fileprivate struct BoardView: View {
 					player.closeSubpath()
 				}
 			
+            // Draw Player
 			context.fill(player, with: .color(viewStore.gameoverAlertState == nil ? .red : .white))
-			context.fill(
-				Path(
-					size.gridItemFrame(
-						row: viewStore.food.row,
-						column: viewStore.food.column,
-						rows: viewStore.rows,
-						columns: viewStore.columns
-					)
-				),
-				with: .color(.yellow)
-			)
+			// Draw Food
+            context.fill(Path(
+                size.gridItemFrame(
+                        row: viewStore.food.row,
+                        column: viewStore.food.column,
+                        rows: viewStore.rows,
+                        columns: viewStore.columns
+                    )
+                ),
+                with: .color(.yellow)
+            )
 		}
 		.aspectRatio(Double(viewStore.rows) / Double(viewStore.columns), contentMode: .fit)
 		.background(Color.blue)
