@@ -9,10 +9,17 @@ Built using The Composable Architecture for the business logic.
 ## Contents
 
 - [🔭 Supported Platforms](#supported-platforms)
+- [📁 Important Files](#important-files)
 
 ## Supported Platforms 
 
 - iOS 15.0+ 📱
+
+## Important Files
+
+- [Sources/GameState.swift](Sources/GameState.swift)
+- [Sources/GameReducer.swift](Sources/GameReducer.swift)
+- [Sources/GameView.swift](Sources/GameView.swift)
 
 ### License
 
