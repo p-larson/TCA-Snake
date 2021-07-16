@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "combine-schedulers",
+        "repositoryURL": "https://github.com/pointfreeco/combine-schedulers",
+        "state": {
+          "branch": null,
+          "revision": "c37e5ae8012fb654af776cc556ff8ae64398c841",
+          "version": "0.5.0"
+        }
+      },
+      {
+        "package": "OMJoystick",
+        "repositoryURL": "https://github.com/tichise/OMJoystick",
+        "state": {
+          "branch": null,
+          "revision": "23f99279323daa7e17652b641fa9342387932e12",
+          "version": "0.6.2"
+        }
+      },
+      {
+        "package": "swift-case-paths",
+        "repositoryURL": "https://github.com/pointfreeco/swift-case-paths",
+        "state": {
+          "branch": null,
+          "revision": "ac1cf1c35b63d70bf05707ad368c9459f31513ff",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "swift-composable-architecture",
+        "repositoryURL": "https://github.com/pointfreeco/swift-composable-architecture",
+        "state": {
+          "branch": null,
+          "revision": "3ca8249bd3262e9837c6cb4d352cc58e370e33fc",
+          "version": "0.20.0"
+        }
+      },
+      {
+        "package": "xctest-dynamic-overlay",
+        "repositoryURL": "https://github.com/pointfreeco/xctest-dynamic-overlay",
+        "state": {
+          "branch": null,
+          "revision": "603974e3909ad4b48ba04aad7e0ceee4f077a518",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98902D73269B75E700268871 /* SnakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98902D65269B75E600268871 /* SnakeApp.swift */; };
-		98902D74269B75E700268871 /* SnakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98902D65269B75E600268871 /* SnakeApp.swift */; };
-		98902D75269B75E700268871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98902D66269B75E600268871 /* ContentView.swift */; };
-		98902D76269B75E700268871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98902D66269B75E600268871 /* ContentView.swift */; };
+		98902D73269B75E700268871 /* TCASnakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98902D65269B75E600268871 /* TCASnakeApp.swift */; };
 		98902D77269B75E700268871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98902D67269B75E700268871 /* Assets.xcassets */; };
-		98902D78269B75E700268871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98902D67269B75E700268871 /* Assets.xcassets */; };
+		98902D89269B76F300268871 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 98902D88269B76F300268871 /* ComposableArchitecture */; };
+		98C4DAF6269BC79900D21626 /* OMJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 98C4DAF5269BC79900D21626 /* OMJoystick */; };
+		98E2D472269DF89E00E42156 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D471269DF89E00E42156 /* Coordinate.swift */; };
+		98E2D474269DF8A700E42156 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D473269DF8A700E42156 /* Direction.swift */; };
+		98E2D476269DF8DA00E42156 /* GameAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D475269DF8DA00E42156 /* GameAction.swift */; };
+		98E2D47A269DF90600E42156 /* GameEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D479269DF90600E42156 /* GameEnvironment.swift */; };
+		98E2D47C269DF91D00E42156 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D47B269DF91D00E42156 /* GameState.swift */; };
+		98E2D47E269DF93100E42156 /* GameReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D47D269DF93100E42156 /* GameReducer.swift */; };
+		98E2D480269DF95000E42156 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2D47F269DF95000E42156 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		98902D65269B75E600268871 /* SnakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeApp.swift; sourceTree = "<group>"; };
-		98902D66269B75E600268871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98643D3226A104D700A052B9 /* TCA-Snake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Snake-Info.plist"; sourceTree = "<group>"; };
+		986E4B5E269CC79B00251F51 /* Snake.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snake.entitlements; sourceTree = "<group>"; };
+		98902D65269B75E600268871 /* TCASnakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCASnakeApp.swift; sourceTree = "<group>"; };
 		98902D67269B75E700268871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		98902D6C269B75E700268871 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		98902D72269B75E700268871 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98902D6C269B75E700268871 /* TCA Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCA Snake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E2D471269DF89E00E42156 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		98E2D473269DF8A700E42156 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		98E2D475269DF8DA00E42156 /* GameAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAction.swift; sourceTree = "<group>"; };
+		98E2D479269DF90600E42156 /* GameEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEnvironment.swift; sourceTree = "<group>"; };
+		98E2D47B269DF91D00E42156 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		98E2D47D269DF93100E42156 /* GameReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameReducer.swift; sourceTree = "<group>"; };
+		98E2D47F269DF95000E42156 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,13 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98902D6F269B75E700268871 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				98C4DAF6269BC79900D21626 /* OMJoystick in Frameworks */,
+				98902D89269B76F300268871 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,36 +51,67 @@
 		98902D5F269B75E600268871 = {
 			isa = PBXGroup;
 			children = (
-				98902D64269B75E600268871 /* Shared */,
+				98643D3226A104D700A052B9 /* TCA-Snake-Info.plist */,
+				986E4B5E269CC79B00251F51 /* Snake.entitlements */,
+				98902D64269B75E600268871 /* Sources */,
 				98902D6D269B75E700268871 /* Products */,
+				98C4DAF4269BC79900D21626 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		98902D64269B75E600268871 /* Shared */ = {
+		98902D64269B75E600268871 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				98902D65269B75E600268871 /* SnakeApp.swift */,
-				98902D66269B75E600268871 /* ContentView.swift */,
+				98902D65269B75E600268871 /* TCASnakeApp.swift */,
+				98E2D478269DF8EF00E42156 /* Core */,
+				98E2D477269DF8E700E42156 /* Models */,
 				98902D67269B75E700268871 /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		98902D6D269B75E700268871 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98902D6C269B75E700268871 /* Snake.app */,
-				98902D72269B75E700268871 /* Snake.app */,
+				98902D6C269B75E700268871 /* TCA Snake.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		98C4DAF4269BC79900D21626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98E2D477269DF8E700E42156 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98E2D471269DF89E00E42156 /* Coordinate.swift */,
+				98E2D473269DF8A700E42156 /* Direction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98E2D478269DF8EF00E42156 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				98E2D475269DF8DA00E42156 /* GameAction.swift */,
+				98E2D479269DF90600E42156 /* GameEnvironment.swift */,
+				98E2D47B269DF91D00E42156 /* GameState.swift */,
+				98E2D47D269DF93100E42156 /* GameReducer.swift */,
+				98E2D47F269DF95000E42156 /* GameView.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		98902D6B269B75E700268871 /* Snake (iOS) */ = {
+		98902D6B269B75E700268871 /* TCA Snake */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98902D7B269B75E700268871 /* Build configuration list for PBXNativeTarget "Snake (iOS)" */;
+			buildConfigurationList = 98902D7B269B75E700268871 /* Build configuration list for PBXNativeTarget "TCA Snake" */;
 			buildPhases = (
 				98902D68269B75E700268871 /* Sources */,
 				98902D69269B75E700268871 /* Frameworks */,
@@ -83,26 +121,13 @@
 			);
 			dependencies = (
 			);
-			name = "Snake (iOS)";
+			name = "TCA Snake";
+			packageProductDependencies = (
+				98902D88269B76F300268871 /* ComposableArchitecture */,
+				98C4DAF5269BC79900D21626 /* OMJoystick */,
+			);
 			productName = "Snake (iOS)";
-			productReference = 98902D6C269B75E700268871 /* Snake.app */;
-			productType = "com.apple.product-type.application";
-		};
-		98902D71269B75E700268871 /* Snake (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 98902D7E269B75E700268871 /* Build configuration list for PBXNativeTarget "Snake (macOS)" */;
-			buildPhases = (
-				98902D6E269B75E700268871 /* Sources */,
-				98902D6F269B75E700268871 /* Frameworks */,
-				98902D70269B75E700268871 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Snake (macOS)";
-			productName = "Snake (macOS)";
-			productReference = 98902D72269B75E700268871 /* Snake.app */;
+			productReference = 98902D6C269B75E700268871 /* TCA Snake.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,12 +143,9 @@
 					98902D6B269B75E700268871 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					98902D71269B75E700268871 = {
-						CreatedOnToolsVersion = 13.0;
-					};
 				};
 			};
-			buildConfigurationList = 98902D63269B75E600268871 /* Build configuration list for PBXProject "Snake" */;
+			buildConfigurationList = 98902D63269B75E600268871 /* Build configuration list for PBXProject "TCA Snake" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,12 +154,15 @@
 				Base,
 			);
 			mainGroup = 98902D5F269B75E600268871;
+			packageReferences = (
+				98902D87269B76F300268871 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				98C4DAF3269BC78700D21626 /* XCRemoteSwiftPackageReference "OMJoystick" */,
+			);
 			productRefGroup = 98902D6D269B75E700268871 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98902D6B269B75E700268871 /* Snake (iOS) */,
-				98902D71269B75E700268871 /* Snake (macOS) */,
+				98902D6B269B75E700268871 /* TCA Snake */,
 			);
 		};
 /* End PBXProject section */
@@ -151,14 +176,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98902D70269B75E700268871 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98902D78269B75E700268871 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -166,17 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98902D75269B75E700268871 /* ContentView.swift in Sources */,
-				98902D73269B75E700268871 /* SnakeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98902D6E269B75E700268871 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98902D76269B75E700268871 /* ContentView.swift in Sources */,
-				98902D74269B75E700268871 /* SnakeApp.swift in Sources */,
+				98E2D47E269DF93100E42156 /* GameReducer.swift in Sources */,
+				98E2D47C269DF91D00E42156 /* GameState.swift in Sources */,
+				98902D73269B75E700268871 /* TCASnakeApp.swift in Sources */,
+				98E2D480269DF95000E42156 /* GameView.swift in Sources */,
+				98E2D476269DF8DA00E42156 /* GameAction.swift in Sources */,
+				98E2D47A269DF90600E42156 /* GameEnvironment.swift in Sources */,
+				98E2D472269DF89E00E42156 /* Coordinate.swift in Sources */,
+				98E2D474269DF8A700E42156 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +248,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -287,6 +303,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -299,25 +317,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snake.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Snake-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "TCA-Snake";
+				INFOPLIST_KEY_CFBundleName = "TCA Snake";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = software.larson.Snake;
-				PRODUCT_NAME = Snake;
+				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.TCA-Snake";
+				PRODUCT_NAME = "TCA Snake";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,25 +353,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snake.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Snake-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "TCA-Snake";
+				INFOPLIST_KEY_CFBundleName = "TCA Snake";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = software.larson.Snake;
-				PRODUCT_NAME = Snake;
+				PRODUCT_BUNDLE_IDENTIFIER = "software.larson.TCA-Snake";
+				PRODUCT_NAME = "TCA Snake";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,68 +385,10 @@
 			};
 			name = Release;
 		};
-		98902D7F269B75E700268871 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = software.larson.Snake;
-				PRODUCT_NAME = Snake;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		98902D80269B75E700268871 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8B8QZZ6VNV;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = software.larson.Snake;
-				PRODUCT_NAME = Snake;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		98902D63269B75E600268871 /* Build configuration list for PBXProject "Snake" */ = {
+		98902D63269B75E600268871 /* Build configuration list for PBXProject "TCA Snake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98902D79269B75E700268871 /* Debug */,
@@ -425,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98902D7B269B75E700268871 /* Build configuration list for PBXNativeTarget "Snake (iOS)" */ = {
+		98902D7B269B75E700268871 /* Build configuration list for PBXNativeTarget "TCA Snake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98902D7C269B75E700268871 /* Debug */,
@@ -434,16 +406,39 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98902D7E269B75E700268871 /* Build configuration list for PBXNativeTarget "Snake (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98902D7F269B75E700268871 /* Debug */,
-				98902D80269B75E700268871 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98902D87269B76F300268871 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		98C4DAF3269BC78700D21626 /* XCRemoteSwiftPackageReference "OMJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tichise/OMJoystick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98902D88269B76F300268871 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98902D87269B76F300268871 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		98C4DAF5269BC79900D21626 /* OMJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98C4DAF3269BC78700D21626 /* XCRemoteSwiftPackageReference "OMJoystick" */;
+			productName = OMJoystick;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98902D60269B75E600268871 /* Project object */;
 }
